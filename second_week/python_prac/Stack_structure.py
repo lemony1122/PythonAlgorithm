@@ -11,6 +11,10 @@ class Stack:
     def push(self, value):
         self.top = Node(value, self.top)
 
+        # node=Node(val,None)
+        # node.next = self.top
+        # self.top = node
+
     def pop(self):
         if self.top is None:
             return None
@@ -22,3 +26,5 @@ class Stack:
 
     def is_empty(self):
         return self.top is None
+
+

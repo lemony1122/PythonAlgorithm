@@ -1,5 +1,6 @@
+import Stack_structure
 def test_stack():
-    stack = Stack()
+    stack = Stack_structure.Stack()
 
     stack.push(1)
     stack.push(2)
